@@ -1,0 +1,86 @@
+html {
+  background-color: #ddd;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  width: 375px;
+  margin: auto;
+ 
+}
+
+article {
+  border-bottom: 20px solid #ddd;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  border-bottom: 1px solid grey;
+}
+
+.head-logo {
+  width: 127px;
+  height: 60px;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.posted-by {   
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.name-loc p{
+  padding: 0px 0px 0px 5px;
+  margin: 0px;
+  line-height: 18px;
+}
+
+.art-name{
+  font-size: 13px; 
+  font-weight: bold;  
+}
+
+.art-loc{
+  font-size: 12px;   
+}
+
+.artwork {
+  width: 100%;
+}
+
+.icon {
+  width: 23px;
+  padding: 5px 0px 5px 10px;
+}
+
+.icon:hover {
+  opacity: 0.3;
+}
+
+.like-style {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0px 0px 0px 10px;
+  margin: 0px;
+}
+
+.comment-style {
+  margin: 0px;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.comment-style span {
+  font-weight: bold;
+}
